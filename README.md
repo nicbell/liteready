@@ -4,7 +4,7 @@ A lightweight DOM ready.
 
 ## Install:
 ```bash
-$ npm i liteready
+$ npm i lite-ready
 ```
 
 ## Usage:
