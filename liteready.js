@@ -1,7 +1,7 @@
 module.exports = function (callback) {
 
-	if (document.readyState === 'complete') {
-		// Already ready, execute callback
+	if (document.readyState === 'complete' || document.readyState === 'interactive') {
+		// Already ready or interactive, execute callback
 		callback.call();
 	}
 	else if (document.addEventListener) {
