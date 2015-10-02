@@ -4,15 +4,15 @@ module.exports = function (callback) {
 		// Already ready or interactive, execute callback
 		callback.call();
 	}
-	else if (document.addEventListener) {
-		// Modern browsers
-		document.addEventListener('DOMContentLoaded', callback);
-	}
 	else if (document.attachEvent) {
 		// Old browsers
 		document.attachEvent('onreadystatechange', function () {
-			if (document.readyState == 'interactive')
+			if (document.readyState === 'interactive')
 				callback.call();
 		});
+	}
+	else if (document.addEventListener) {
+		// Modern browsers
+		document.addEventListener('DOMContentLoaded', callback);
 	}
 }
