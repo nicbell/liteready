@@ -1,14 +1,14 @@
-# liteready [![NPM](https://nodei.co/npm/lite-ready.png?mini=true)](https://nodei.co/npm/lite-ready/) ![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnicbell%2Fnpm-statistics%2Fmaster%2Fpackages%2Flite-ready.json&style=flat&label=downloads&logo=null&color=#41b916&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flite-ready)
-
+# 🪶 liteready 
+[![npm](https://img.shields.io/npm/v/lite-ready?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/lite-ready) [![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/lite-ready?style=for-the-badge&color=pink)](https://www.npmjs.com/package/lite-ready) [![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnicbell%2Fnpm-statistics%2Fmaster%2Fpackages%2Flite-ready.json&label=Downloads&logo=null&color=violet)](https://npm-stat.com/charts.html?package=lite-ready&from=2015-03-01)
 
 An extremely lightweight DOM ready with great browser support.
 
-## Install:
-```bash
-$ npm i lite-ready
+## Install
+```sh
+npm i lite-ready
 ```
 
-## Usage:
+## Usage
 ```js
 var ready = require('lite-ready')
  
